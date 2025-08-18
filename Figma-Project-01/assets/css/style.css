@@ -1,0 +1,16 @@
+* {
+  box-sizing: border-box;
+}
+html {
+  font-size: 62.5%;
+}
+/* Mặc định: font-size của browser là ~16px
+62.5% của 16px = 10px
+Lợi ích: dễ tính rem cho toàn site
+Đây là mẹo tính toán rem cho dễ
+ */
+/* khôi phục lại cỡ chữ mặc định theo rem */
+body {
+  font-size: 1.6rem;
+  /* 16 px */
+}
