@@ -6,12 +6,272 @@
     <title>Figma-Job1</title>
     <!-- reset.css -->
     <link rel="stylesheet" href="./assets/css/reset.css" />
-
+    <!--Embed Font -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&family=Sen:wght@700&display=swap"
+      rel="stylesheet"
+    />
     <!-- style.css -->
     <link rel="stylesheet" href="./assets/css/style.css" />
   </head>
-  <body>
-    <h1>Test</h1>
-    <blockquote>Học lập trình không khó, chỉ cần kiên nhẫn.</blockquote>
+  <body class="font__poppins--regular">
+    <!-- header -->
+    <header class="header header--fixed">
+      <div class="main__container">
+        <div class="header__body">
+          <!-- logo -->
+          <img
+            src="./assets/img/Logo.svg"
+            alt="Lesson. "
+            class="header__logo"
+          />
+          <!-- nav -->
+          <nav class="nav">
+            <ul class="header__list">
+              <li class="active"><a href="#!">Home</a></li>
+              <li><a href="#!">Courses</a></li>
+              <li><a href="#!">Pricing</a></li>
+              <li><a href="#!">Reviews</a></li>
+            </ul>
+          </nav>
+          <!-- btn action-->
+          <div class="header__actions">
+            <a href="#!" class="btn btn--primary">Sign Up</a>
+          </div>
+        </div>
+      </div>
+    </header>
+
+    <!-- main -->
+    <main>
+      <div class="hero">
+        <div class="main__container">
+          <div class="main__body">
+            <!-- left  -->
+            <div class="main__media">
+              <img
+                src="./assets/img/image1.svg"
+                alt="study"
+                class="media--img"
+              />
+              <div class="main__list">
+                <div class="main__icon">
+                  <div class="icon">
+                    <img src="./assets/icon/Group 17523.svg" alt="uiux" />
+                    <p>20 Courses</p>
+                    <p class="font__sen--bold">UI/UX Design</p>
+                  </div>
+                  <div class="icon">
+                    <img src="./assets/icon/Group 17525.svg" alt="develop" />
+                    <p>20 Courses</p>
+                    <p class="font__sen--bold">Development</p>
+                  </div>
+                  <div class="icon">
+                    <img src="./assets/icon/Group 17524.svg" alt="marketing" />
+                    <p>30 Courses</p>
+                    <p class="font__sen--bold">Marketing</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <!-- right -->
+            <div class="main__content">
+              <div class="right--content">
+                <h1 class="font__sen--bold">
+                  Learn without limits and spread knowledge.
+                </h1>
+                <br />
+                <p class="font__poppins--regular">
+                  Build new skills for that “this is my year” feeling with
+                  courses, certificates, and degrees from world-class
+                  universities and companies.
+                </p>
+              </div>
+              <div class="button__main--secondary">
+                <button class="btn btn-secondary">See Courses</button>
+                <img src="./assets/icon/Group 17513.svg" alt="play video" />
+                <button class="btn btn-vid">Watch Video</button>
+              </div>
+              <div class="content__second--right">
+                <div>
+                  <p class="content__desc--one">Recent engagement</p>
+                </div>
+                <div class="content__desc--two">
+                  <p><strong>50K+ </strong> Students</p>
+                  <p><strong>70+</strong> Courses</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- popular -->
+      <div class="popular">
+        <div class="popular__container main__container">
+          <div class="popular__head">
+            <div class="popular__head--title">
+              <h2>Our popular courses</h2>
+              <div class="popular__head--des">
+                <p>
+                  Build new skills with new trendy courses and shine for the
+                  next future career.
+                </p>
+              </div>
+            </div>
+            <div class="popular__button--control">
+              <button class="btn--control--item1">
+                <img src="./assets/icon/iconso1.svg" alt="left" />
+              </button>
+              <button class="btn--control--item2">
+                <img
+                  src="./assets/icon/iconso1.svg"
+                  style="transform: scale(-1)"
+                  alt="right"
+                />
+              </button>
+            </div>
+          </div>
+          <div class="popular__main">
+            <div class="popular__card--one">
+              <div class="popular__card--img">
+                <img src="./assets/img/card1.svg" alt="Basic Web Design" />
+              </div>
+              <div class="popular__main--desc">
+                <div class="popular__item--desc"><h3>Basic web design</h3></div>
+                <div class="popular__icon--star">
+                  <img src="./assets/icon/Star 6.svg" alt="star" class="star" />
+                  <span>4.5</span>
+                </div>
+              </div>
+              <div class="popular__content--card1">
+                <p>
+                  Get the best course, gain knowledge and shine for your future
+                  career.
+                </p>
+              </div>
+              <div class="popular__action">
+                <div class="popular__price"><strong>$120.75</strong></div>
+                <div class="popular__button">
+                  <button class="btn button--yellow btn--opacity">
+                    Book Now
+                  </button>
+                </div>
+              </div>
+            </div>
+            <div class="popular__card--two">
+              <div class="popular__card--img">
+                <img src="./assets/img/card2.svg" alt="Basic Web Design" />
+              </div>
+              <div class="popular__main--desc">
+                <div class="popular__item--desc">
+                  <h3 class="line-clamp">
+                    Lorem ipsum dolor sit, amet consectetur adipisicing elit.
+                    Ipsam hic dicta nemo. Maiores, molestiae. Molestias sint
+                    voluptatum obcaecati doloribus, error officiis? Veniam
+                    laudantium ratione quia dolore necessitatibus, culpa natus
+                    voluptate. Sunt nulla obcaecati ipsam asperiores impedit
+                    totam quasi provident tenetur eaque cupiditate, fugiat nam,
+                    at esse magnam officiis odit, tempora quos ullam rem natus
+                    dolore ipsa mollitia. Pariatur, cumque aliquid. Pariatur
+                    esse aspernatur amet culpa consectetur maxime aliquam
+                    numquam nesciunt sunt voluptatibus reprehenderit quis rerum
+                    fuga, officiis similique ipsum delectus nulla aperiam ad! In
+                    voluptas perspiciatis blanditiis maiores, et eum! Saepe hic
+                    reiciendis nulla ducimus molestiae nobis. Unde rem, autem
+                    velit nulla saepe ad tenetur maxime asperiores explicabo
+                    architecto vero iusto exercitationem officia? Aut,
+                    voluptatum. Omnis obcaecati quibusdam quas nisi. Quae nulla
+                    eaque impedit at neque similique a quaerat, aperiam ipsa
+                    animi officia dignissimos reiciendis ullam omnis labore odit
+                    ratione natus sit praesentium molestiae recusandae! Dolores
+                    ut totam neque veritatis!
+                  </h3>
+                </div>
+                <div class="popular__icon--star">
+                  <img src="./assets/icon/Star 6.svg" alt="star" class="star" />
+                  <span>4.5</span>
+                </div>
+              </div>
+              <div class="popular__content--card1">
+                <p>
+                  Get the best course, gain knowledge and shine for your future
+                  career.
+                </p>
+              </div>
+              <div class="popular__action">
+                <div class="popular__price"><strong>$120.75</strong></div>
+                <div class="popular__button">
+                  <button class="btn button--yellow btn--opacity">
+                    Book Now
+                  </button>
+                </div>
+              </div>
+            </div>
+            <div class="popular__card--three">
+              <div class="popular__card--img">
+                <img src="./assets/img/card3.svg" alt="Basic Web Design" />
+              </div>
+              <div class="popular__main--desc">
+                <div class="popular__item--desc"><h3>Web App design</h3></div>
+                <div class="popular__icon--star">
+                  <img src="./assets/icon/Star 6.svg" alt="star" class="star" />
+                  <span>4.5</span>
+                </div>
+              </div>
+              <div class="popular__content--card1">
+                <p>
+                  Get the best course, gain knowledge and shine for your future
+                  career.
+                </p>
+              </div>
+              <div class="popular__action">
+                <div class="popular__price"><strong>$120.75</strong></div>
+                <div class="popular__button">
+                  <button class="btn button--yellow btn--opacity">
+                    Book Now
+                  </button>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- “Testimonial” là một từ tiếng Anh, thường dùng trong lĩnh vực marketing, thiết kế web, hoặc truyền thông, có nghĩa là lời chứng thực hoặc lời chia sẻ đánh giá từ người dùng, khách hàng, hoặc học viên về một sản phẩm, dịch vụ, hoặc trải nghiệm nào đó. -->
+      <!-- Testimonial -->
+      <section class="testimonial">
+        <div class="testimonial__container main__container">
+          <div class="testimonial__info">
+            <img
+              class="testimonial-author"
+              src="./assets/img/testimonial.svg"
+              alt="Peter Moor"
+            />
+            <p class="testimonial-author--name">Peter Moor</p>
+            <p class="testimonial-author--job">Student of Web Design</p>
+
+            <div class="testimonial__dots">
+              <span class="dot dot--active"></span>
+              <span class="dot"></span>
+              <span class="dot"></span>
+            </div>
+          </div>
+
+          <div class="testimonial-content">
+            <p>
+              Not only does my resume look impressive—filled with the names and
+              logos of world-class institutions—but these certificates also
+              bring me closer to my career goals by validating the skills I've
+              learned."
+            </p>
+          </div>
+        </div>
+      </section>
+      <section class="features"></section>
+    </main>
   </body>
 </html>
