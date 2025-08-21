@@ -809,6 +809,138 @@ p.font__poppins--regular {
 }
 /* Footer */
 footer {
-  margin-top: 140px;
   background: #2e2100;
+}
+.footer__container {
+  display: grid;
+
+  grid-template-columns: 1.5fr 1fr 1fr 1fr;
+
+  position: relative;
+}
+.footer__column {
+  margin-top: 96px;
+  display: flex;
+  flex-direction: column;
+}
+.footer__column p {
+  color: #bfbcb2;
+  width: 267px;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 26px; /* 185.714% */
+}
+.footer__column.footer__intro {
+  margin-top: 96px;
+}
+
+.footer__column.footer__intro img {
+  width: 85px;
+  margin-top: 5px;
+  margin-bottom: 18px;
+}
+.footer__column.footer__intro p {
+  padding-top: 15px;
+}
+
+.footer__social {
+  margin-top: 18px;
+  display: flex;
+  align-items: center;
+  gap: 0px;
+  width: 111px;
+  margin-left: -30px;
+}
+
+.footer__social a {
+  width: 25px;
+  height: 16px;
+}
+
+.footer__social img {
+  width: 15px;
+  height: 15px;
+  display: block;
+}
+
+.footer__social img:hover {
+  scale: 1.1;
+}
+
+/* column 2 */
+.footer__heading {
+  color: #fff;
+  font-family: Poppins;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 28px; /* 175% */
+  margin-bottom: 43px;
+  position: relative;
+}
+.footer__body {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+  margin-bottom: 38px;
+  min-width: 205px;
+}
+.footer__column a {
+  color: #bfbcb2;
+
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 26px; /* 185.714% */
+}
+.footer__body strong {
+  color: #fff;
+  font-family: Poppins;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 26px; /* 185.714% */
+}
+.footer__heading::after {
+  content: "";
+  background: #59554b;
+  width: 130px;
+  height: 1px;
+  flex-shrink: 0;
+  position: absolute;
+  opacity: 70%;
+  left: 0;
+  top: 48px;
+  bottom: 0;
+}
+.footer--copyright {
+  grid-column: 1 / -1;
+  /* or span 4 */
+  justify-self: center;
+
+  font-size: 14px;
+  color: #aaa;
+  position: relative;
+  width: 100%;
+  margin: 28px;
+}
+.footer--copyright p {
+  color: #807d74;
+  text-align: center;
+  font-family: Poppins;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 26px; /* 185.714% */
+}
+
+.footer--copyright::before {
+  content: "";
+  background: #59554b;
+  height: 1px;
+  flex-shrink: 0;
+  position: absolute;
+  top: -28px;
+  width: 100%;
 }
